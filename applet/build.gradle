@@ -25,9 +25,11 @@ sourceCompatibility = 1.8
 
 // Common settings, definitions
 //final def rootPath = rootDir.absolutePath
-println("DEBUG: rootPath old = " + rootDir.absolutePath)
+println("project.rootProject: " + project.rootProject)
+println("project.rootDir: " + project.rootDir)
+println("project.projectDir: " + project.projectDir)
+println("System.getProperty(\"user.dir\"): " + System.getProperty("user.dir"))
 final def rootPath = rootProject.projectDir.absolutePath
-println("DEBUG: rootPath new = " + rootProject.projectDir.absolutePath)
 final def libs = rootPath + '/libs'
 final def libsSdk = rootPath + '/libs-sdks'
 
