@@ -35,9 +35,6 @@ repositories {
 
     // Repository with JCardSim, Globalplatform, etc, ...
     maven {
-        url  "https://dl.bintray.com/ph4r05/jcard"
-    }
-    maven {
         url "https://javacard.pro/maven"
     }
     maven {
